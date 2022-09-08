@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.page_heading {
+    /* background-image: url("../pictures/background_images/products.jpg"); */
+    background-image: url(../pictures/background_images/products_dark.jpg);
+    background-color: black;
+    background-blend-mode: luminosity;
+    /* background-color: orange; */
+}
+
+/* .carousel.slide {
+    height: 40vw;
+} */
+
+/* .row.product-display {
+    height: 100%;
+} */
+
+/* .footer {
+    color: white;
+    background-color: rgb(255, 255, 255);
+} */
+.col-10 {
+    margin: 0;
+}
+
+.prodect_image {
+    border: solid black 5px;
+}
+
+.product_contact {
+    border: solid black 5px;
+}
+
+.verification_error {
+    color: red;
+}
+
+/* .product_image.card-img-top {
+    width: 100%;
+} */
+
+.category_panel {
+    width: 90%;
+}
+
+/* .category_panel h2 {
+    text-align: center;
+} */
+
+.category_panel a {
+    text-decoration: none;
+    color: #f8f9fa;
+    display: block;
+    cursor: pointer;
+}
+
+.category_panel h2 {
+    border-bottom: 2px  white solid;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Inventory page */
+
+.inventory-viewport {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+/* Home page */
+.home_page_category {
+    /* width: 20%; */
+    height: 100px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.home_page_category p {
+    font-size: 1.3em;
+}
+
+
+
+/* About page */
+
+.partner_logo {
+    border-radius: 50%;
+}
+
+/* API Page */
+
+#api_titles {
+    list-style: none;
+    padding-left: 10px;
+    background-color: #212529;    
+    width: 90%;    
+    padding: 0;
+}
+
+.api_title {
+    cursor: pointer;
+    list-style: none;
+    color: #f8f9fa;    
+    display: block;
+    line-height: 60px;
+    margin: 0;
+    padding-left: 10px;
+
+}
+
+.api_title:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-weight: bold;
+}
+
+.reverse_color {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-weight: bold;
+}
